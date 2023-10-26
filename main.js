@@ -164,8 +164,8 @@ const mediaType = pane.addBlade({
   view: 'list',
   label: 'Media',
   options: [
-    { text: 'Video 72 KFI', value: MEDIA_TYPES.VIDEO72 },
-    { text: 'Video 1 KFI', value: MEDIA_TYPES.VIDEO1 },
+    { text: 'Regular Video', value: MEDIA_TYPES.VIDEO72 },
+    { text: 'Optimized Video', value: MEDIA_TYPES.VIDEO1 },
     { text: 'Images', value: MEDIA_TYPES.IMAGES },
   ],
   value: MEDIA_TYPES.IMAGES,
